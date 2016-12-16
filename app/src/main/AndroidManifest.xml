@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shafy.wannatofly">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+
+        <activity
+            android:name=".home"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".elsh3ar"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_elsh3ar"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".bonus"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_bonus"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".map"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_map"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".lo8z"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_lo8z"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".clues"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_clues"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".prog"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_prog"
+            android:theme="@style/FullscreenTheme"></activity>
+    </application>
+
+</manifest>

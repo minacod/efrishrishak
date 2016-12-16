@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">افرش ريشك</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_elsh3ar">elsh3ar</string>
+
+    <string name="title_activity_bonus">bonus</string>
+
+    <string name="title_activity_map">map</string>
+
+    <string name="title_activity_lo8z">lo8z</string>
+
+    <string name="correctSol">you cracked it.. WoW..!!\n Go to uncle peter and tell him</string>
+
+    <string name="title_activity_clues">clues</string>
+    <string name="c">hi</string>
+
+    <string name="title_activity_prog">prog</string>
+</resources>
